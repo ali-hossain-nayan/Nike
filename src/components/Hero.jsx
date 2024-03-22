@@ -9,13 +9,14 @@ const Hero = () => {
   const [Img, setImg] = useState(bigShoe1)
   return (
     <section id='home'
-      className='w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container'
+      className='w-full flex xl:flex-row flex-col justify-center min-h-screen gap-16 max-container'
     >
       <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28'>
-        <p className='text-xl text-violet-400'>Our Winter Collection</p>
+        <p className='text-2xl text-violet-400'>Our Winter Collection</p>
         <h1 className='mt-10 text-8xl max-sm:text[72px] font-bold '><span className=' xl:whitespace-nowra '>The New Arrival</span>
           <br />
-          <span className='text-violet-500 p-2 inline-block mt-5 '>Nike</span>
+          <span className='text-violet-500 p-2
+           inline-block mt-5 '>Nike</span>
           Shoes
         </h1>
         <p className='p-4 text-lg mt-6 mb-6 sm:max-w-sm'>Discover stylish Nike arrivals,quality comfort and innovation for your active life</p>
@@ -29,7 +30,7 @@ const Hero = () => {
           ))}</div>
       </div>
       <div className='flex flex-1 relative justify-center items-center
-         max-xl:py-36 xl:min-h-screen bg-primary   bg-center '>
+         max-xl:py-36 xl:min-h-screen bg-slate-200  bg-center '>
         <img src={Img} alt="big-show-collection " width={600} height={500}
           className='object-contain relative z-10'
         />
